@@ -8,59 +8,60 @@
 <table align="center" width="100%" border="0" cellpadding="0" cellspacing="0">
   <tr>
     <!-- Left Column: Profile Info -->
-    <td width="50%" valign="top">
+    <td width="55%" valign="top">
       <h3>📡 OPERATOR PROFILE</h3>
       <p>
         <strong>ROLE:</strong> Offensive Security Researcher<br />
-        <strong>SPECIALTY:</strong> BCI-Integrated Defense & AI Aurgementation<br />
+        <strong>SPECIALTY:</strong> BCI-Integrated Defense & AI Augmentation<br />
         <strong>BASE:</strong> Delhi, India<br />
         <strong>CONTACT:</strong> icybersaket@gmail.com
       </p>
       <p>
-        <strong>CLEARANCE:</strong><br />
-        <img src="https://img.shields.io/badge/TOP%20SECRET-LEVEL%205-000000?style=flat-square&color=000000&labelColor=FF003C" alt="Clearance" />
+        <img src="https://img.shields.io/badge/CLEARANCE-TOP%20SECRET-000000?style=flat-square&color=000000&labelColor=FF003C" alt="Clearance" />
+        <img src="https://img.shields.io/github/followers/pingsaketchoudhary?style=flat-square&color=00F3FF&labelColor=000000" alt="Followers" />
       </p>
       <hr />
-      <p>
-        <a href="https://linkedin.com/in/saketchoudhary">
-          <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="25" />
-        </a>
-        <br />
-        <a href="https://saketchoudhary.in">
-          <img src="https://img.shields.io/badge/PORTFOLIO-VISIT%20HQ-000000?style=for-the-badge&logo=vercel&logoColor=white" height="25" />
-        </a>
-        <br />
-        <a href="mailto:icybersaket@gmail.com">
-          <img src="https://img.shields.io/badge/EMAIL-SECURE%20LINE-00F3FF?style=for-the-badge&logo=protonmail&logoColor=black" height="25" />
-        </a>
-      </p>
+      
+      <!-- Socials -->
+      <a href="https://linkedin.com/in/saketchoudhary">
+        <img src="https://img.shields.io/badge/LINKEDIN-CONNECT-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" height="28" />
+      </a>
+      <br />
+      <a href="mailto:icybersaket@gmail.com">
+        <img src="https://img.shields.io/badge/EMAIL-SECURE%20LINE-00F3FF?style=for-the-badge&logo=protonmail&logoColor=black" height="28" />
+      </a>
+      <br />
+      <a href="https://saketchoudhary.in">
+        <img src="https://img.shields.io/badge/PORTFOLIO-OFFICIAL%20SITE-000000?style=for-the-badge&logo=vercel&logoColor=white" height="28" />
+      </a>
     </td>
-    <!-- Right Column: Stats -->
-    <td width="50%" valign="top" align="center">
-      <h3>📊 PERFORMANCE METRICS</h3>
-      <img src="https://github-readme-stats.vercel.app/api?username=pingsaketchoudhary&show_icons=true&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F3FF&icon_color=00FF41&text_color=FFFFFF" alt="Stats" width="100%" />
-      <br /><br />
-      <img src="https://github-readme-stats.vercel.app/api/top-langs/?username=pingsaketchoudhary&layout=compact&theme=radical&hide_border=true&bg_color=0D1117&title_color=00F3FF&text_color=FFFFFF" alt="Langs" width="100%" />
+    
+    <!-- Right Column: Tech Arsenal (Expanded) -->
+    <td width="45%" valign="top" align="center">
+      <h3>⚡ TECH ARSENAL</h3>
+      <table border="0">
+        <tr>
+          <td align="center">
+            <img src="https://skillicons.dev/icons?i=python,ts,cpp,rust,go,react,nextjs,tailwind&perline=4&theme=dark" alt="Code" />
+            <br/>
+            <img src="https://skillicons.dev/icons?i=kali,linux,docker,gcp,git,bash,vim,md&perline=4&theme=dark" alt="Tools" />
+          </td>
+        </tr>
+      </table>
     </td>
   </tr>
 </table>
 
 <br />
 
-<!-- Tech Stack -->
+<!-- Neural Activity (Snake) -->
 <div align="center">
-  <h3>⚡ WEAPONRY (TECH STACK)</h3>
-  <img src="https://skillicons.dev/icons?i=python,ts,cpp,rust,react,nextjs,tailwind,nodejs,kali,docker,gcp,git&perline=6&theme=dark" alt="Stack" />
-</div>
-
-<br />
-
-<!-- Activity Log -->
-<div align="center">
-  <h3>🧬 NEURAL ACTIVITY LOG</h3>
-  <a href="https://github.com/pingsaketchoudhary">
-    <img src="https://ghchart.rshah.org/00F3FF/pingsaketchoudhary" alt="Contributions" width="100%" />
+  <h3>🧬 NEURAL NETWORK ACTIVITY</h3>
+  <!-- Link to the workflow so user can run it -->
+  <a href="https://github.com/pingsaketchoudhary/pingsaketchoudhary/actions">
+    <img src="https://raw.githubusercontent.com/pingsaketchoudhary/pingsaketchoudhary/output/github-contribution-grid-snake-dark.svg" width="100%" alt="Neural Activity (Run Workflow to Generate)" />
   </a>
+  <p><em>* Graph updates automatically every 12 hours.</em></p>
 </div>
 
 <br />
@@ -68,5 +69,5 @@
 <!-- Footer -->
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=00F3FF&height=60&section=footer" width="100%" alt="Footer" />
-  <p>SYSTEM ID: SKC-9902 | TERMINATING SESSION...</p>
+  <p>SYSTEM ID: SKC-9902 | END OF LINE</p>
 </div>
