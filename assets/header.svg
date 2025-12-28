@@ -1,0 +1,143 @@
+<svg fill="none" viewBox="0 0 800 400" width="800" height="400" xmlns="http://www.w3.org/2000/svg">
+  <foreignObject width="100%" height="100%">
+    <div xmlns="http://www.w3.org/1999/xhtml">
+      <style>
+        @import url('https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;display=swap');
+        
+        .container {
+          font-family: 'Share Tech Mono', monospace;
+          background-color: #0D1117;
+          width: 100%;
+          height: 400px;
+          color: #00FF41;
+          display: flex;
+          flex-direction: column;
+          justify-content: center;
+          align-items: center;
+          position: relative;
+          overflow: hidden;
+          border-radius: 10px;
+          border: 1px solid #30363d;
+        }
+
+        .scan-line {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 100%;
+          height: 5px;
+          background-color: rgba(0, 255, 65, 0.3);
+          box-shadow: 0 0 10px rgba(0, 255, 65, 0.5);
+          animation: scan 4s linear infinite;
+          opacity: 0.3;
+          z-index: 10;
+        }
+
+        .bg-grid {
+          position: absolute;
+          top: 0;
+          left: 0;
+          width: 200%;
+          height: 200%;
+          background-image: 
+            linear-gradient(rgba(0, 255, 65, 0.03) 1px, transparent 1px),
+            linear-gradient(90deg, rgba(0, 255, 65, 0.03) 1px, transparent 1px);
+          background-size: 20px 20px;
+          transform: perspective(500px) rotateX(60deg) translateY(-100px) translateZ(-200px);
+          animation: grid-move 20s linear infinite;
+        }
+
+        .content {
+          z-index: 5;
+          text-align: center;
+        }
+
+        .typing-container {
+          display: inline-block;
+          font-size: 24px;
+          text-shadow: 0 0 5px #00FF41;
+        }
+
+        .line-1 {
+          overflow: hidden;
+          white-space: nowrap;
+          border-right: 2px solid #00FF41;
+          width: 0;
+          animation: typing-1 3s steps(40, end) forwards, blink 0.75s step-end infinite;
+          animation-delay: 0.5s;
+        }
+
+        .line-2 {
+          overflow: hidden;
+          white-space: nowrap;
+          border-right: 2px solid transparent;
+          width: 0;
+          opacity: 0;
+          font-size: 36px;
+          font-weight: bold;
+          color: #00F3FF;
+          text-shadow: 0 0 10px #00F3FF;
+          margin-top: 10px;
+          animation: typing-2 3s steps(30, end) forwards, blink-caret 0.75s step-end infinite;
+          animation-delay: 3.5s;
+        }
+
+        .status {
+           margin-top: 30px;
+           font-size: 14px;
+           color: #FF003C;
+           opacity: 0;
+           animation: fade-in 1s ease-in forwards;
+           animation-delay: 7s;
+        }
+
+        @keyframes scan {
+          0% { top: -10%; }
+          100% { top: 110%; }
+        }
+
+        @keyframes grid-move {
+          0% { transform: perspective(500px) rotateX(60deg) translateY(0) translateZ(-200px); }
+          100% { transform: perspective(500px) rotateX(60deg) translateY(20px) translateZ(-200px); }
+        }
+
+        @keyframes typing-1 {
+          from { width: 0; }
+          to { width: 100%; border-right-color: transparent; }
+        }
+
+        @keyframes typing-2 {
+          from { width: 0; opacity: 1; border-right: 2px solid #00F3FF;}
+          to { width: 100%; opacity: 1; border-right-color: transparent; }
+        }
+        
+        @keyframes blink {
+          from, to { border-color: transparent }
+          50% { border-color: #00FF41; }
+        }
+        
+        @keyframes blink-caret {
+          from, to { border-color: transparent }
+          50% { border-color: #00F3FF; }
+        }
+
+        @keyframes fade-in {
+          to { opacity: 1; }
+        }
+      </style>
+      <div class="container">
+        <div class="bg-grid"></div>
+        <div class="scan-line"></div>
+        <div class="content">
+          <div class="typing-container line-1">> INITIATING SECURE CONNECTION...</div>
+          <br/>
+          <div class="typing-container line-2">WELCOME, AGENT.</div>
+          <div class="status">
+            [ SYSTEM STATUS: ONLINE ]<br/>
+            [ THREAT LEVEL: ZERO ]
+          </div>
+        </div>
+      </div>
+    </div>
+  </foreignObject>
+</svg>
