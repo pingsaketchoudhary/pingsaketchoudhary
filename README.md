@@ -5,7 +5,7 @@
 **AI Security Engineer & Researcher building memory-safe systems software in Rust & Go and zero-telemetry defense tools.**
 
 ```text
-Delhi, India  │  https://saketchoudhary.in  │  icybersaket@gmail.com
+Delhi, India  │  pingsaketchoudhary.github.io  │  icybersaket@gmail.com
 ```
 
 <br />
